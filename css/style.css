@@ -1,0 +1,97 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #0E1014;
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 85px;
+    font-weight: bold;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+.img_celulares {
+    display: block;
+    margin: 0 auto;
+}
+
+.botao_primario {
+    background-color: #9747FF;
+    border-radius: 1032px;
+    color: #FFFFFF;
+    display: block;
+    height: 66px;
+    line-height: 66px;
+    margin: 40px auto;
+    padding-top: 24px;
+    padding-right: 48px;
+    padding-bottom: 24px;
+    padding-left: 48px;
+    text-align: center;
+    text-decoration: none;
+    width: 340px;
+}
+
+.botao_primario:hover {
+    background-color: #8233E8;
+}
+
+.logo {
+    margin: 70px 0px 60px 330px;
+}
+
+.titulo {
+    color: #9747FF;
+}
+
+@media(max-width: 768px){
+    h1 {
+        margin: 0px 0px 24px 0px;
+    }
+    p {
+        margin-bottom: 40px;
+    }
+    .logo {
+        margin: 65px 0px 74px 60px;
+    }
+}
+
+@media(max-width: 375px){
+    section h1 {
+        font-size: 40px;
+        height: 150px;
+        margin: 0 auto;
+        text-align: center;
+        width: 340px;
+    }
+    section p {
+        font-size: 20px;
+        margin: 0 auto;
+        text-align: center;
+        width: 340px;
+    }
+    .botao_primario {
+        font-size: 20px;
+        margin: 40px auto;
+        padding: 0px 48px;
+        width: 250px;
+    }
+    .img_celulares {
+        height: 230px;
+        width: 340px;
+    }
+    .logo {
+        margin: 32px 0px 60px 16px;
+    }
+}
